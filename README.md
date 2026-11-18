@@ -19,6 +19,26 @@ In this exercise, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## Learning to fix bugs and improve cybersecurity
+
+Bug fixing starts with reproducing the problem and keeping the investigation small:
+
+1. Read the error message and identify the affected behavior.
+2. Reproduce the issue with the smallest useful input.
+3. Check recent changes and follow the code from the input to the failure.
+4. Make one focused fix, add or update a test, and verify the result.
+5. Review the change before merging it.
+
+Good cybersecurity habits help prevent bugs and reduce risk:
+
+- Use the least privileges needed for a task.
+- Keep dependencies and systems updated.
+- Never commit passwords, tokens, or other secrets.
+- Validate and encode untrusted input.
+- Report suspected vulnerabilities privately instead of publishing sensitive details.
+
+For GitHub's security guidance, see [Securing your repository](https://docs.github.com/en/code-security/getting-started/securing-your-repository).
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
